@@ -16,6 +16,7 @@
         <activity android:name="com.magicPocket.android.HomePage" />
         <activity android:name=".User.Modify" />
         <activity android:name=".User.Register" />
+        <activity android:name="com.magicPocket.android.CalActivity"/>
         <activity android:name="com.magicPocket.android.joke.JokeActivity" />
         <activity android:name="com.magicPocket.android.joke.JokeDetails" />
         <activity android:name="com.magicPocket.android.Main2" />

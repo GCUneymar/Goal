@@ -25,7 +25,8 @@ class HomePage : AppCompatActivity() {
         val funnyjoke:Button = findViewById(R.id.btn_joke)
         //计算器
         calculator.setOnClickListener {
-
+            val intent  = Intent(this,CalActivity::class.java)
+            startActivity(intent)
         }
 
         //天气预报
